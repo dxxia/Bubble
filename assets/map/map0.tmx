@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="16" height="9" tilewidth="40" tileheight="40">
+ <tileset firstgid="1" name="pnl" tilewidth="40" tileheight="40">
+  <image source="map_plaza_tile2.png" width="480" height="40"/>
+  <tile id="1">
+   <properties>
+    <property name="moveable" value="true"/>
+   </properties>
+  </tile>
+  <tile id="2">
+   <properties>
+    <property name="moveable" value="true"/>
+   </properties>
+  </tile>
+  <tile id="4">
+   <properties>
+    <property name="moveable" value="false"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="bg_layer" width="16" height="9">
+  <data encoding="base64" compression="zlib">
+   eJxjZmBgYIZiVjSamUg5XJiVSPXoZhNjPynuIMduVhLV0MoNtLab2DjGJQcANT4B8Q==
+  </data>
+ </layer>
+</map>
